@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+:root {
+  --dark-black: #1f1f1f;
+  --black: #646464;
+}
+
+* {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: all 0.3s cubic-bezier(0.38, 1.15, 0.7, 1.12);
+  text-decoration: none;
+}
+
+*::selection {
+  background: var(--dark-black);
+  color: #fff;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+section {
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+.content {
+  justify-content: center;
+  align-items: center;
+  padding-top: 20rem;
+  text-align: center;
+}
+
+.content h3 {
+  font-weight: 600;
+  font-size: 6.5rem;
+  color: var(--dark-black);
+}
+.content h1 {
+  font-weight: 800;
+  font-size: 10rem;
+  color: var(--black);
+}
+
+.content .logo {
+  margin-bottom: 5rem;
+  width: 25rem;
+  border-radius: 50%;
+  border: var(--black);
+  box-shadow: 0rem 1rem 1rem rgba(95, 93, 93, 0.582);
+}
+
+.content .social a {
+  height: 4.5rem;
+  width: 4.5rem;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  background: var(--dark-black);
+  margin: 0.6rem;
+  line-height: 4.5rem;
+  color: white;
+}
+.social {
+  padding: 1rem;
+  margin-top: 0.1rem;
+  border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
+}
+.content .social span {
+  font-weight: normal;
+  font-size: 3.2rem;
+  margin-inline: 1rem;
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .content .social span {
+    font-size: 3.2rem;
+  }
+  .content h3 {
+    font-size: 5.5rem;
+  }
+  .content h1 {
+    font-size: 9rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .content .social span {
+    font-size: 3rem;
+  }
+  .content h3 {
+    font-size: 4.5rem;
+  }
+  .content h1 {
+    font-size: 7rem;
+  }
+}
+@media (max-width: 420px) {
+  html {
+    font-size: 50%;
+  }
+  .content .logo {
+    width: 20rem;
+    height: 20rem;
+  }
+  .content h3 {
+    font-size: 4rem;
+  }
+  .content h1 {
+    font-size: 7rem;
+  }
+  .content .social a {
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+
+    margin: 0.4rem;
+    line-height: 4rem;
+  }
+  .social {
+    padding: 1rem;
+    margin-top: 0.1rem;
+    border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
+  }
+}
