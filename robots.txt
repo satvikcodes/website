@@ -8,7 +8,7 @@
 
 
 <!-- Open Graph -->
-<meta property="og:url" content="http://satvikcodes.com/wp-sitemap.xml" />
+<meta property="og:url" content="http://satvikcodes.com/robots.txt" />
 <meta property="og:type" content="website" />
 						
 <!-- Twitter Card -->
